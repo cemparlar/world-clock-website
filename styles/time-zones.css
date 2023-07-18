@@ -1,0 +1,129 @@
+﻿@charset "utf-8";
+body {
+   margin: 0 auto;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   max-width: 7.5in;
+}
+
+#headbar {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
+#headbar img {
+   display: block;
+ }
+ 
+#headbar h2 {
+   margin-top: 10px;
+ }
+
+
+#map {
+   margin-top: 30px;
+}
+
+#name_table {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#address_table {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: 300;
+}
+
+#place1 {
+  background-color: rgba(255, 0, 0, 0.7); /* red */
+}
+
+#place2 {
+  background-color: rgba(0, 0, 255, 0.7); /* blue */
+}
+
+#place3 {
+  background-color: rgba(0, 128, 0, 0.7); /* green */
+}
+
+#place4 {
+  background-color: rgba(255, 255, 0, 0.7); /* yellow */
+}
+
+#place5 {
+  background-color: rgba(255, 165, 0, 0.7); /* orange */
+}
+
+#place6 {
+  background-color: rgba(128, 0, 128, 0.7); /* purple */
+}
+
+#name_table th:nth-child(1), #Houston_Office {
+  background-color: rgba(255, 0, 0, 1); /* red */
+}
+
+#name_table th:nth-child(2), #London_Office {
+  background-color: rgba(0, 0, 255, 1); /* blue */
+}
+
+#name_table th:nth-child(3), #NY_Office {
+  background-color: rgba(0, 128, 0, 1); /* green */
+}
+
+#name_table th:nth-child(4), #Seattle_Office {
+  background-color: rgba(255, 255, 0, 1); /* yellow */
+}
+
+#name_table th:nth-child(5), #Sydney_Office {
+  background-color: rgba(255, 165, 0, 1); /* orange */
+}
+
+#name_table th:nth-child(6), #Tokyo_Office {
+  background-color: rgba(128, 0, 128, 1); /* purple */
+}
+
+#name_table, #address_table {
+   width: 100%;
+}
+
+#timemap {
+   position: absolute;
+ }
+ 
+ #place1 {
+   position: absolute;
+   top: 200px;
+   left: 130px;
+ }
+ 
+ #place2 {
+   position: absolute;
+   top: 142px;
+   left: 303px;
+ }
+ 
+ #place3 {
+   position: absolute;
+   top: 170px;
+   left: 170px;
+ }
+ 
+ #place4 {
+   position: absolute;
+   top: 170px;
+   left: 60px;
+ }
+ 
+ #place5 {
+   position: absolute;
+   top: 295px;
+   left: 570px;
+ }
+ 
+ #place6 {
+   position: absolute;
+   top: 175px;
+   left: 560px;
+ }
